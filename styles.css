@@ -1,0 +1,125 @@
+body
+{
+    background-image: url(redwal.webp);
+}
+body, html {
+    height: 100%;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+    /* The image used */
+    background-image: url("photographer.jpg");
+  
+    /* Add the blur effect */
+    filter: blur(10px);
+    -webkit-filter: blur(8px);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 385px;
+    left: 750px;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  #nader1
+  {
+    left: 950px;
+    top: 50px;
+    position: absolute;
+    border-radius: 20px;
+  }
+  #junior
+  {
+    left: 20px;
+    top: 1460px;
+    position: absolute;
+    border-radius: 20px;
+  }
+#theweekend
+{
+    left: 20px;
+    top: 1150px;
+    position: absolute;
+    border-radius: 15px;
+}
+#nader2
+{
+    left: 350px;
+    top: 60px;
+    position: absolute;
+    border-radius: 20px;
+}
+#nader3
+{
+    left: 345px;
+    top: 500px;
+    position: absolute;
+    border-radius: 20px;
+}
+#nader44
+{
+    left: 950px;
+    top: 500px;
+    position: absolute;
+    border-radius: 20px;
+}
+#badrhari
+{
+  left: 700px;
+  top: 1150px;
+  position: absolute;
+  border-radius: 15px;
+}
+
+iframe
+{
+  position: absolute;
+  left: 350px;
+  top: 1150px;
+}
+#marokko
+{
+  top: 309px;
+  left: 1100px;
+  position: absolute;
+}
+#marokko2
+{
+  top: 309px;
+  left: 260px;
+  position: absolute;
+}
+#marina
+{
+  border-radius: 20px;
+}
+#rabat
+{
+  top: 1825px;
+  left: 400px;
+  position: absolute;
+  border-radius: 20px;
+}
